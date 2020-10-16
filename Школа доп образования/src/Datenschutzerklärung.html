@@ -1,0 +1,607 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran&display=swap" rel="stylesheet">
+    <!--    <link rel="stylesheet" href="fonts/libsans/libsans.css">-->
+    <!--    <link rel="stylesheet" href="css/outlines.css">-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slick.css">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Datenschutzerklärung</title>
+</head>
+
+<body>
+<div class="wrapper">
+    <div class="page">
+
+        <!--        Header -->
+        <header class="header">
+            <div class="header-outer">
+                <div class="container">
+                    <div class="header-inner">
+                        <div class="header-block header-logo">
+                            <a class="main-logo-link" href="index.html">
+                                <img class="main-logo" src="images/main-logo.svg" alt="Main logo">
+                            </a>
+                        </div>
+                        <div class="blocks-wrapper">
+                            <div class="header-block first">
+                                <div class="info">
+                                    <ul class="info-list">
+                                        <li class="info-item">
+                                            <picture>
+                                                <img class="info-item__map" src="images/icons/map.svg" alt="">
+                                            </picture>
+                                            <span class="info-item__address">Георгенштрассе 35,<br>
+                                                    офис 614-616 10117 Берлин</span>
+                                        </li>
+                                        <li class="info-item">
+                                            <picture>
+                                                <img src="images/icons/phone.svg" alt="">
+                                            </picture>
+                                            <a class="info-link" href="tel:030-235 93 553">030-235 93 553</a>
+                                        </li>
+                                        <li class="info-item">
+                                            <picture>
+                                                <img src="images/icons/mail.svg" alt="">
+                                            </picture>
+                                            <a class="info-link"
+                                               href="mailto:info@proakademie.de">info@proakademie.de</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="toggle-lang">
+                                    <a class="toggle-link blue-border active" href="#">RU</a>
+                                    <a class="toggle-link red-border active" href="#">DE</a>
+                                    <div class="toggle-link yellow-border"></div>
+                                    <a class="toggle-link blue-border" href="#">EN</a>
+                                    <a class="toggle-link red-border" href="#">FA</a>
+                                    <div class="toggle-link yellow-border"></div>
+                                    <a class="toggle-link blue-border" href="#">AR</a>
+                                    <div class="toggle-link red-border"></div>
+                                    <div class="toggle-link yellow-border"></div>
+                                </div>
+                                <div class="ask-button-block">
+                                    <input class="ask-button" id="askBtn" type="button" value="Задать вопрос">
+                                </div>
+
+                                <div class="modal-block" id="myModal"></div>
+                                <div class="modal">
+                                    <form action="">
+                                        <fieldset>
+                                            <legend>Задать вопрос</legend>
+                                            <input type="text" class="input form-name" name="username" id="username"
+                                                   placeholder="Имя" required>
+                                            <label for="username"></label>
+
+                                            <input type="text" class="input form-name" name="surname" id="surname"
+                                                   placeholder="Фамилия" required>
+                                            <label for="surname"></label>
+
+                                            <input type="email" class="input form-name invalid" name="email"
+                                                   placeholder="e-mail" id="email" required>
+                                            <label for="email"></label>
+
+                                            <input type="tel" class="input form-name" name="number"
+                                                   placeholder="+49 ___ ___ ___">
+                                            <textarea type="text" rows="10" class="input form-name" name="message"
+                                                      id="textarea" placeholder="Ваше сообщение" required></textarea>
+                                            <label for="textarea"></label>
+                                            <div class="agreement-wrapper">
+                                                <label class="agreement-text check">
+                                                    <input type="checkbox" class="check__input" checked>
+                                                    <span class="check__box"></span>
+                                                    Нажимая на эту кнопку я соглашаюсь с условиями обработки
+                                                    информации</label>
+                                            </div>
+                                            <div class="button-wrapper">
+                                                <button class="button" name="submit">Отправить</button>
+                                            </div>
+                                        </fieldset>
+
+                                    </form>
+                                </div>
+
+
+                            </div>
+                            <div class="header-block second">
+                                <nav class="nav">
+                                    <ul class="nav__list">
+                                        <li class="nav__item">
+                                            <a class="nav__link current" href="index.html"
+                                               target="_blank">Главная</a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a class="nav__link" href="courses.html" target="_blank">Курсы</a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a class="nav__link" href="coaching.html" target="_blank">Коучинги</a>
+                                        </li>
+                                        <li class="nav__item" id="nav__about-us">
+                                            <a class="nav__link"  href="about-us.html" target="_blank">О нас</a>
+                                            <ul class="drop-down-menu__list">
+                                                <li class="drop-down-menu__item drop-down-menu__item--hover">
+                                                    <a href="our-mission.html" class="drop-down-menu__link"><span class="round"></span>Наша миссия</a>
+                                                </li>
+                                                <li class="drop-down-menu__item">
+                                                    <a href="about-us.html" class="drop-down-menu__link"><span class="round"></span>Кто мы</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a class="nav__link" href="blog.html" target="_blank">Блог</a>
+                                        </li>
+                                        <li class="nav__item">
+                                            <a class="nav__link" href="reviews.html" target="_blank">Отзывы</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+
+                            </div>
+                        </div>
+                        <div class="header-mobile">
+                            <div class="toggle-lang-mobile">
+                                <a class="toggle-link yellow-border active" href="#">RU</a>
+                                <a class="toggle-link yellow-border" href="#">DE</a>
+                                <a class="toggle-link yellow-border" href="#">EN</a>
+                                <a class="toggle-link yellow-border" href="#">FA</a>
+                                <a class="toggle-link yellow-border" href="#">AR</a>
+                            </div>
+                            <nav class="nav-mobile">
+                                <ul class="nav-mobile__list">
+                                    <li class="nav-mobile__item">
+                                        <a class="nav-mobile__link current" href="index.html"
+                                           target="_blank">Главная</a>
+                                    </li>
+                                    <li class="nav-mobile__item">
+                                        <a class="nav-mobile__link" href="courses.html" target="_blank">Курсы</a>
+                                    </li>
+                                    <li class="nav-mobile__item">
+                                        <a class="nav-mobile__link" href="coaching.html"
+                                           target="_blank">Коучинги</a>
+                                    </li>
+                                    <li class="nav-mobile__item">
+                                        <a class="nav-mobile__link" href="about-us.html" target="_blank">О нас</a>
+                                    </li>
+                                    <li class="nav-mobile__item">
+                                        <a class="nav-mobile__link" href="blog.html" target="_blank">Блог</a>
+                                    </li>
+                                    <li class="nav-mobile__item">
+                                        <a class="nav-mobile__link" href="feedback.html" target="_blank">Отзывы</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="burger">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <!--        / Header -->
+
+        <!--       Main -->
+        <main class="main">
+            <!--     /  Main -->
+
+            <!--            Datenschutzerklärung-->
+            <section class="daten-section section">
+                <div class="container">
+                    <div class="section-inner bg-desktop bg-mobile">
+                        <h1 class="section-title">Datenschutzerklärung</h1>
+                        <div class="section-content">
+                            <p class="section-content__text">Allgemeine Hinweise<br>
+                                Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie unsere Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten Datenschutzerklärung.<br>
+                                <br>
+                                Datenerfassung auf unserer Website<br>
+                                <br>
+                                Wer ist verantwortlich für die Datenerfassung auf dieser Website?<br>
+                                <br>
+                                Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können Sie dem Impressum dieser Website entnehmen.<br>
+                                <br>
+                                Wie erfassen wir Ihre Daten?<br>
+                                <br>
+                                Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z.B. um Daten handeln, die Sie in ein Kontaktformular eingeben.<br>
+                                <br>
+                                Andere Daten werden automatisch beim Besuch der Website durch unsere IT-Systeme erfasst. Das sind vor allem technische Daten (z.B. Internetbrowser, Betriebssystem oder Uhrzeit des Seitenaufrufs). Die Erfassung dieser Daten erfolgt automatisch, sobald Sie unsere Website betreten.<br>
+                                <br>
+                                Wofür nutzen wir Ihre Daten?<br>
+                                <br>
+                                Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung der Website zu gewährleisten. Andere Daten können zur Analyse Ihres Nutzerverhaltens verwendet werden.<br>
+                                <br>
+                                Welche Rechte haben Sie bezüglich Ihrer Daten?<br>
+                                <br>
+                                Sie haben jederzeit das Recht unentgeltlich Auskunft über Herkunft, Empfänger und Zweck Ihrer gespeicherten personenbezogenen Daten zu erhalten. Sie haben außerdem ein Recht, die Berichtigung, Sperrung oder Löschung dieser Daten zu verlangen. Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden. Des Weiteren steht Ihnen ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu.<br>
+                                <br>
+                                Analyse-Tools und Tools von Drittanbietern<br>
+                                <br>
+                                Beim Besuch unserer Website kann Ihr Surf-Verhalten statistisch ausgewertet werden. Das geschieht vor allem mit Cookies und mit sogenannten Analyseprogrammen. Die Analyse Ihres Surf-Verhaltens erfolgt in der Regel anonym; das Surf-Verhalten kann nicht zu Ihnen zurückverfolgt werden. Sie können dieser Analyse widersprechen oder sie durch die Nichtbenutzung bestimmter Tools verhindern. Detaillierte Informationen dazu finden Sie in der folgenden Datenschutzerklärung.<br>
+                                <br>
+                                Allgemeine Hinweise und Pflichtinformationen<br>
+                                Datenschutz<br>
+                                <br>
+                                Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.<br>
+                                <br>
+                                Wenn Sie diese Website benutzen, werden verschiedene personenbezogene Daten erhoben. Personenbezogene Daten sind Daten, mit denen Sie persönlich identifiziert werden können. Die vorliegende Datenschutzerklärung erläutert, welche Daten wir erheben und wofür wir sie nutzen. Sie erläutert auch, wie und zu welchem Zweck das geschieht.<br>
+                                <br>
+                                Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.<br>
+                                <br>
+                                Hinweis zur verantwortlichen Stelle<br>
+                                <br>
+                                Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website können Sie dem Impressum dieser Website entnehmen.<br>
+                                <br>
+                                Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.B. Namen, E-Mail-Adressen o. Ä.) entscheidet.<br>
+                                <br>
+                                Widerruf Ihrer Einwilligung zur Datenverarbeitung<br>
+                                <br>
+                                Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung möglich. Sie können eine bereits erteilte Einwilligung jederzeit widerrufen. Dazu reicht eine formlose Mitteilung per E-Mail an uns. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.<br>
+                                <br>
+                                Beschwerderecht bei der zuständigen Aufsichtsbehörde<br>
+                                <br>
+                                Im Falle datenschutzrechtlicher Verstöße steht dem Betroffenen ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu. Zuständige Aufsichtsbehörde in datenschutzrechtlichen Fragen ist der Landesdatenschutzbeauftragte des Bundeslandes, in dem unser Unternehmen seinen Sitz hat. Eine Liste der Datenschutzbeauftragten sowie deren Kontaktdaten können folgendem Link entnommen werden:https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links- node.html.<br>
+                                <br>
+                                Recht auf Datenübertragbarkeit<br>
+                                <br>
+                                Sie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags automatisiert verarbeiten, an sich oder an einen Dritten in einem gängigen, maschinenlesbaren Format aushändigen zu lassen. Sofern Sie die direkte Übertragung der Daten an einen anderen Verantwortlichen verlangen, erfolgt dies nur, soweit es technisch machbar ist.<br>
+                                <br>
+                                SSL- bzw. TLS-Verschlüsselung<br>
+                                <br>
+                                Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, wie zum Beispiel Bestellungen oder Anfragen, die Sie an uns als Seitenbetreiber senden, eine SSL-bzw. TLS- Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von "http://"? auf "https://"? wechselt und an dem Schloss-Symbol in Ihrer Browserzeile.<br>
+                                <br>
+                                Wenn die SSL- bzw. TLS-Verschlüsselung aktiviert ist, können die Daten, die Sie an uns übermitteln, nicht von Dritten mitgelesen werden.<br>
+                                <br>
+                                Auskunft, Sperrung, Löschung<br>
+                                <br>
+                                Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten, deren Herkunft und Empfänger und den Zweck der Datenverarbeitung und ggf. ein Recht auf Berichtigung, Sperrung oder Löschung dieser Daten. Hierzu sowie zu weiteren Fragen zum Thema personenbezogene Daten können Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden.<br>
+                                <br>
+                                Widerspruch gegen Werbe-Mails<br>
+                                <br>
+                                Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-E-Mails, vor.<br>
+                                <br>
+                                Datenerfassung auf unserer Website<br>
+                                Cookies<br>
+                                <br>
+                                Die Internetseiten verwenden teilweise so genannte Cookies. Cookies richten auf Ihrem Rechner keinen Schaden an und enthalten keine Viren. Cookies dienen dazu, unser Angebot nutzerfreundlicher, effektiver und sicherer zu machen. Cookies sind kleine Textdateien, die auf Ihrem Rechner abgelegt werden und die Ihr Browser speichert.<br>
+                                <br>
+                                Die meisten der von uns verwendeten Cookies sind so genannte Session-Cookies. Sie werden nach Ende Ihres Besuchs automatisch gelöscht. Andere Cookies bleiben auf Ihrem Endgerät gespeichert bis Sie diese löschen. Diese Cookies ermöglichen es uns, Ihren Browser beim nächsten Besuch wiederzuerkennen.<br>
+                                <br>
+                                Sie können Ihren Browser so einstellen, dass Sie über das Setzen von Cookies informiert werden und Cookies nur im Einzelfall erlauben, die Annahme von Cookies für bestimmte Fälle oder generell ausschließen sowie das automatische Löschen der Cookies beim Schließen des Browser aktivieren. Bei der Deaktivierung von Cookies kann die Funktionalität dieser Website eingeschränkt sein.<br>
+                                <br>
+                                Cookies, die zur Durchführung des elektronischen Kommunikationsvorgangs oder zur Bereitstellung bestimmter, von Ihnen erwünschter Funktionen (z.B. Warenkorbfunktion) erforderlich sind, werden auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO gespeichert. Der Websitebetreiber hat ein berechtigtes Interesse an der Speicherung von Cookies zur technisch fehlerfreien und optimierten Bereitstellung seiner Dienste. Soweit andere Cookies (z.B. Cookies zur Analyse Ihres Surfverhaltens) gespeichert werden, werden diese in dieser Datenschutzerklärung gesondert behandelt.<br>
+                                <br>
+                                Server-Log-Dateien<br>
+                                <br>
+                                Der Provider der Seiten erhebt und speichert automatisch Informationen in so genannten Server-Log-Dateien, die Ihr Browser automatisch an uns übermittelt. Dies sind:<br>
+                                <br>
+                                Browsertyp und Browserversion<br>
+                                verwendetes Betriebssystem<br>
+                                Referrer URL<br>
+                                Hostname des zugreifenden Rechners<br>
+                                Uhrzeit der Serveranfrage<br>
+                                IP-Adresse<br>
+                                Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen.<br>
+                                <br>
+                                Grundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. b DSGVO, der die Verarbeitung von Daten zur Erfüllung eines Vertrags oder vorvertraglicher Maßnahmen gestattet.<br>
+                                <br>
+                                Kontaktformular<br>
+                                <br>
+                                Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.<br>
+                                <br>
+                                Die Verarbeitung der in das Kontaktformular eingegebenen Daten erfolgt somit ausschließlich auf Grundlage Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Sie können diese Einwilligung jederzeit widerrufen. Dazu reicht eine formlose Mitteilung per E-Mail an uns. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitungsvorgänge bleibt vom Widerruf unberührt.<br>
+                                <br>
+                                Die von Ihnen im Kontaktformular eingegebenen Daten verbleiben bei uns, bis Sie uns zur Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck für die Datenspeicherung entfällt (z.B. nach abgeschlossener Bearbeitung Ihrer Anfrage). Zwingende gesetzliche Bestimmungen – insbesondere Aufbewahrungsfristen – bleiben unberührt.<br>
+                                <br>
+                                Verarbeiten von Daten (Kunden- und Vertragsdaten)<br>
+                                <br>
+                                Wir erheben, verarbeiten und nutzen personenbezogene Daten nur, soweit sie für die Begründung, inhaltliche Ausgestaltung oder Änderung des Rechtsverhältnisses erforderlich sind (Bestandsdaten). Dies erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, der die Verarbeitung von Daten zur Erfüllung eines Vertrags oder vorvertraglicher Maßnahmen gestattet. Personenbezogene Daten über die Inanspruchnahme unserer Internetseiten (Nutzungsdaten) erheben, verarbeiten und nutzen wir nur, soweit dies erforderlich ist, um dem Nutzer die Inanspruchnahme des Dienstes zu ermöglichen oder abzurechnen.<br>
+                                <br>
+                                Die erhobenen Kundendaten werden nach Abschluss des Auftrags oder Beendigung der Geschäftsbeziehung gelöscht. Gesetzliche Aufbewahrungsfristen bleiben unberührt.<br>
+                                <br>
+                                Datenübermittlung bei Vertragsschluss für Online-Shops, Händler und Warenversand<br>
+                                <br>
+                                Wir übermitteln personenbezogene Daten an Dritte nur dann, wenn dies im Rahmen der Vertragsabwicklung notwendig ist, etwa an die mit der Lieferung der Ware betrauten Unternehmen oder das mit der Zahlungsabwicklung beauftragte Kreditinstitut. Eine weitergehende Übermittlung der Daten erfolgt nicht bzw. nur dann, wenn Sie der Übermittlung ausdrücklich zugestimmt haben. Eine Weitergabe Ihrer Daten an Dritte ohne ausdrückliche Einwilligung, etwa zu Zwecken der Werbung, erfolgt nicht.<br>
+                                <br>
+                                Grundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. b DSGVO, der die Verarbeitung von Daten zur Erfüllung eines Vertrags oder vorvertraglicher Maßnahmen gestattet.<br>
+                                <br>
+                                Datenübermittlung bei Vertragsschluss für Dienstleistungen und digitale Inhalte<br>
+                                <br>
+                                Wir übermitteln personenbezogene Daten an Dritte nur dann, wenn dies im Rahmen der Vertragsabwicklung notwendig ist, etwa an das mit der Zahlungsabwicklung beauftragte Kreditinstitut.<br>
+                                <br>
+                                Eine weitergehende Übermittlung der Daten erfolgt nicht bzw. nur dann, wenn Sie der Übermittlung ausdrücklich zugestimmt haben. Eine Weitergabe Ihrer Daten an Dritte ohne ausdrückliche Einwilligung, etwa zu Zwecken der Werbung, erfolgt nicht.<br>
+                                <br>
+                                Grundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. b DSGVO, der die Verarbeitung von Daten zur Erfüllung eines Vertrags oder vorvertraglicher Maßnahmen gestattet.<br>
+                                <br>
+                                Analyse Tools und Werbung<br>
+                                Matomo<br>
+                                <br>
+                                Diese Website benutzt den Open Source Webanalysedienst Matomo. Matomo verwendet so genannte "Cookies". Das sind Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Dazu werden die durch den Cookie erzeugten Informationen über die Benutzung dieser Website auf unserem Server gespeichert. Die IP-Adresse wird vor der Speicherung anonymisiert.<br>
+                                <br>
+                                Matomo-Cookies verbleiben auf Ihrem Endgerät, bis Sie sie löschen.<br>
+                                <br>
+                                Die Speicherung von Matomo-Cookies erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Der Websitebetreiber hat ein berechtigtes Interesse an der anonymisierten Analyse des Nutzerverhaltens, um sowohl sein Webangebot als auch seine Werbung zu optimieren.<br>
+                                <br>
+                                Die durch den Cookie erzeugten Informati
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!--                / Datenschutzerklärung-->
+
+        <!--           Main  -->
+        </main>
+        <!--     /  Main -->
+    </div>
+
+    <!--    Footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-inner-wrapper">
+                    <div class="footer-block">
+                        <a class="main-logo-link" href="index.html">
+                            <img class="main-logo" src="images/main-logo.svg" alt="Main logo">
+                        </a>
+                    </div>
+                    <div class="footer-block">
+                        <div class="info">
+                            <ul class="info-list">
+                                <li class="info-item">
+                                    <img src="images/icons/map.svg" alt="">
+                                    <span class="info-item__address">Георгенштрассе 35,<br>
+                                            офис 614-616 10117 Берлин</span></li>
+                                <li class="info-item">
+                                    <img src="images/icons/phone.svg" alt="">
+                                    <a class="info-link" href="tel:03023593553">030-235 93 553</a></li>
+                                <li class="info-item">
+                                    <img src="images/icons/mail.svg" alt="">
+                                    <a class="info-link" href="mailto:info@proakademie.de">info@proakademie.de</a></li>
+                            </ul>
+                        </div>
+                        <div class="toggle-lang">
+                            <a class="toggle-link blue-border" href="#">RU</a>
+                            <a class="toggle-link red-border" href="#">DE</a>
+                            <div class="toggle-link yellow-border"></div>
+                            <a class="toggle-link blue-border" href="#">EN</a>
+                            <a class="toggle-link red-border" href="#">FA</a>
+                            <div class="toggle-link yellow-border"></div>
+                            <a class="toggle-link blue-border" href="#">AR</a>
+                            <div class="toggle-link red-border"></div>
+                            <div class="toggle-link yellow-border"></div>
+                        </div>
+
+                    </div>
+                    <div class="footer-block">
+                        <nav class="nav">
+                            <ul class="nav__list">
+                                <li class="nav__item">
+                                    <a class="nav__link current" href="index.html" target="_blank">Главная</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="courses.html" target="_blank">Курсы</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="coaching.html" target="_blank">Коучинги</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="about-us.html" target="_blank">О нас</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="blog.html" target="_blank">Блог</a>
+                                </li>
+
+
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer-block">
+                        <div class="inner-wrapper">
+                            <div class="social-block">
+                                <ul class="social-list">
+                                    <li class="social-item">
+                                        <a href="#">
+                                            <img src="images/icons/youtube1.svg" alt="YouTube icon">
+
+
+                                        </a>
+                                    </li>
+                                    <li class="social-item">
+                                        <a href="#">
+                                            <img src="images/icons/inst1.svg" alt="Instagram icon">
+
+                                        </a>
+                                    </li>
+                                    <li class="social-item">
+                                        <a href="#">
+                                            <img src="images/icons/whatsapp1.svg" alt="Whatsapp icon">
+
+                                        </a>
+                                    </li>
+
+                                    <li class="social-item">
+                                        <a href="#">
+                                            <img src="images/icons/pint1.svg" alt="Pinterest icon">
+
+                                        </a>
+                                    </li>
+
+
+                                    <li class="social-item">
+                                        <a href="#">
+                                            <img src="images/icons/telegram1.svg" alt="Telegram icon">
+
+
+                                        </a>
+                                    </li>
+                                    <li class="social-item">
+                                        <a href="#">
+                                            <img src="images/icons/fb1.svg" alt="Facebook icon">
+
+                                        </a>
+                                    </li>
+                                    <li class="social-item">
+                                        <a href="#">
+                                            <img src="images/icons/tw1.svg" alt="Twitter icon">
+
+
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <ul class="footer-info-block">
+                                <li><a href="Datenschutzerklärung.html" class="footer-info-block__text">Datenschutzerklärung</a></li>
+                                <li><a href="Impressum.html" class="footer-info-block__text">Impressum</a></li>
+                                <li><a href="#" class="footer-info-block__text">Allgemeine Geschäftsbedingungen</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="rights-block">
+                    <span class="rights-block__text">© 2020 Proacademie™. Все права защищены.</span>
+                </div>
+            </div>
+        </div>
+        <div class="container-mobile">
+            <div class="footer-inner">
+                <div class="footer-section">
+                    <div class="footer-block logo">
+                        <a class="main-logo-link" href="index.html">
+                            <img class="main-logo" src="images/main-logo.svg" alt="Main logo">
+                        </a>
+                    </div>
+                    <div class="footer-block social">
+                        <div class="social-block">
+                            <ul class="social-list">
+                                <li class="social-item">
+                                    <a href="#">
+                                        <img src="images/icons/youtube1.svg" alt="YouTube icon">
+                                    </a>
+                                </li>
+
+                                <li class="social-item">
+                                    <a href="#">
+                                        <img src="images/icons/whatsapp1.svg" alt="Whatsapp icon">
+                                    </a>
+                                </li>
+
+                                <li class="social-item">
+                                    <a href="#">
+                                        <img src="images/icons/pint1.svg" alt="Pinterest icon">
+                                    </a>
+                                </li>
+
+
+                                <li class="social-item">
+                                    <a href="#">
+                                        <img src="images/icons/telegram1.svg" alt="Telegram icon">
+                                    </a>
+                                </li>
+                                <li class="social-item">
+                                    <a href="#">
+                                        <img src="images/icons/inst1.svg" alt="Instagram icon">
+                                    </a>
+                                </li>
+                                <li class="social-item">
+                                    <a href="#">
+                                        <img src="images/icons/fb1.svg" alt="Facebook icon">
+                                    </a>
+                                </li>
+                                <li class="social-item">
+                                    <a href="#">
+                                        <img src="images/icons/tw1.svg" alt="Twitter icon">
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <div class="wrapper">
+                        <h2 class="footer-nav-mobile-title">Основное</h2>
+                        <nav class="nav">
+                            <ul class="nav__list">
+                                <li class="nav__item">
+                                    <a class="nav__link current" href="index.html" target="_blank">Главная</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="courses.html" target="_blank">Курсы</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="coaching.html" target="_blank">Коучинги</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="about-us.html" target="_blank">О нас</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="blog.html" target="_blank">Блог</a>
+                                </li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="wrapper">
+                        <div class="toggle-lang">
+                            <a class="toggle-link blue-border active" href="#">RU</a>
+                            <a class="toggle-link red-border active" href="#">DE</a>
+                            <div class="toggle-link yellow-border"></div>
+                            <a class="toggle-link blue-border" href="#">EN</a>
+                            <a class="toggle-link red-border" href="#">FA</a>
+                            <div class="toggle-link yellow-border"></div>
+                            <a class="toggle-link blue-border" href="#">AR</a>
+                            <div class="toggle-link red-border"></div>
+                            <div class="toggle-link yellow-border"></div>
+                        </div>
+                        <div class="footer-info-block">
+                            <a href="#" class="footer-info-block__text">Datenschutzerklärung</a>
+                            <a href="#" class="footer-info-block__text">Impressum</a>
+                            <a href="#" class="footer-info-block__text">Allgemeine Geschäftsbedingungen</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="footer-section">
+                    <div class="info">
+                        <h2 class="contacts-title-mobile">Контакты</h2>
+                        <ul class="info-list">
+                            <li class="info-item">
+                                <img src="images/icons/map.svg" alt="">
+                                <span class="info-item__address">Георгенштрассе 35,<br>
+                                        офис 614-616 10117 Берлин</span></li>
+                            <li class="info-item">
+                                <img src="images/icons/phone.svg" alt="">
+                                <a class="info-link" href="tel:03023593553">030-235 93 553</a></li>
+                            <li class="info-item">
+                                <img src="images/icons/mail.svg" alt="">
+                                <a class="info-link" href="mailto:info@proakademie.de">info@proakademie.de</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="rights-block">
+                    <span class="rights-block__text">© 2020 Proacademie™. Все права защищены.</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--    / Footer-->
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+
+</html>

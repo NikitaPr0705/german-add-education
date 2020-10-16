@@ -15,7 +15,7 @@
 
     <link rel="stylesheet" href="css/styles.css">
 
-    <title>Document</title>
+    <title>Главная</title>
 </head>
 
 <body>
@@ -125,14 +125,22 @@
                                             <li class="nav__item">
                                                 <a class="nav__link" href="coaching.html" target="_blank">Коучинги</a>
                                             </li>
-                                            <li class="nav__item">
-                                                <a class="nav__link" href="about-us.html" target="_blank">О нас</a>
+                                            <li class="nav__item" id="nav__about-us">
+                                                <a class="nav__link"  href="about-us.html" target="_blank">О нас</a>
+                                                    <ul class="drop-down-menu__list">
+                                                        <li class="drop-down-menu__item drop-down-menu__item--hover">
+                                                            <a href="our-mission.html" class="drop-down-menu__link"><span class="round"></span>Наша миссия</a>
+                                                        </li>
+                                                        <li class="drop-down-menu__item">
+                                                            <a href="about-us.html" class="drop-down-menu__link"><span class="round"></span>Кто мы</a>
+                                                        </li>
+                                                    </ul>
                                             </li>
                                             <li class="nav__item">
                                                 <a class="nav__link" href="blog.html" target="_blank">Блог</a>
                                             </li>
                                             <li class="nav__item">
-                                                <a class="nav__link" href="feedback.html" target="_blank">Отзывы</a>
+                                                <a class="nav__link" href="reviews.html" target="_blank">Отзывы</a>
                                             </li>
                                         </ul>
                                     </nav>
@@ -594,128 +602,135 @@
                 </section>
                 <!--            / Партнеры -->
             </main>
+            <!--     /  Main -->
         </div>
 
         <!--    Footer-->
         <footer class="footer">
             <div class="container">
                 <div class="footer-inner">
-                    <div class="footer-block">
-                        <a class="main-logo-link" href="index.html">
-                            <img class="main-logo" src="images/main-logo.svg" alt="Main logo">
-                        </a>
-                    </div>
-                    <div class="footer-block">
-                        <div class="info">
-                            <ul class="info-list">
-                                <li class="info-item">
-                                    <img src="images/icons/map.svg" alt="">
-                                    <span class="info-item__address">Георгенштрассе 35,<br>
-                                        офис 614-616 10117 Берлин</span></li>
-                                <li class="info-item">
-                                    <img src="images/icons/phone.svg" alt="">
-                                    <a class="info-link" href="tel:03023593553">030-235 93 553</a></li>
-                                <li class="info-item">
-                                    <img src="images/icons/mail.svg" alt="">
-                                    <a class="info-link" href="mailto:info@proakademie.de">info@proakademie.de</a></li>
-                            </ul>
+                    <div class="footer-inner-wrapper">
+                        <div class="footer-block">
+                            <a class="main-logo-link" href="index.html">
+                                <img class="main-logo" src="images/main-logo.svg" alt="Main logo">
+                            </a>
                         </div>
-                        <div class="toggle-lang">
-                            <a class="toggle-link blue-border" href="#">RU</a>
-                            <a class="toggle-link red-border" href="#">DE</a>
-                            <div class="toggle-link yellow-border"></div>
-                            <a class="toggle-link blue-border" href="#">EN</a>
-                            <a class="toggle-link red-border" href="#">FA</a>
-                            <div class="toggle-link yellow-border"></div>
-                            <a class="toggle-link blue-border" href="#">AR</a>
-                            <div class="toggle-link red-border"></div>
-                            <div class="toggle-link yellow-border"></div>
-                        </div>
-
-                    </div>
-                    <div class="footer-block">
-                        <nav class="nav">
-                            <ul class="nav__list">
-                                <li class="nav__item">
-                                    <a class="nav__link current" href="index.html" target="_blank">Главная</a>
-                                </li>
-                                <li class="nav__item">
-                                    <a class="nav__link" href="courses.html" target="_blank">Курсы</a>
-                                </li>
-                                <li class="nav__item">
-                                    <a class="nav__link" href="coaching.html" target="_blank">Коучинги</a>
-                                </li>
-                                <li class="nav__item">
-                                    <a class="nav__link" href="about-us.html" target="_blank">О нас</a>
-                                </li>
-                                <li class="nav__item">
-                                    <a class="nav__link" href="blog.html" target="_blank">Блог</a>
-                                </li>
-
-
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="footer-block">
-                        <div class="inner-wrapper">
-                            <div class="social-block">
-                                <ul class="social-list">
-                                    <li class="social-item">
-                                        <a href="#">
-                                            <img src="images/icons/youtube1.svg" alt="YouTube icon">
-
-
-                                        </a>
-                                    </li>
-                                    <li class="social-item">
-                                        <a href="#">
-                                            <img src="images/icons/inst1.svg" alt="Instagram icon">
-
-                                        </a>
-                                    </li>
-                                    <li class="social-item">
-                                        <a href="#">
-                                            <img src="images/icons/whatsapp1.svg" alt="Whatsapp icon">
-
-                                        </a>
-                                    </li>
-
-                                    <li class="social-item">
-                                        <a href="#">
-                                            <img src="images/icons/pint1.svg" alt="Pinterest icon">
-
-                                        </a>
-                                    </li>
-
-
-                                    <li class="social-item">
-                                        <a href="#">
-                                            <img src="images/icons/telegram1.svg" alt="Telegram icon">
-
-
-                                        </a>
-                                    </li>
-                                    <li class="social-item">
-                                        <a href="#">
-                                            <img src="images/icons/fb1.svg" alt="Facebook icon">
-
-                                        </a>
-                                    </li>
-                                    <li class="social-item">
-                                        <a href="#">
-                                            <img src="images/icons/tw1.svg" alt="Twitter icon">
-
-
-                                        </a>
-                                    </li>
-
+                        <div class="footer-block">
+                            <div class="info">
+                                <ul class="info-list">
+                                    <li class="info-item">
+                                        <img src="images/icons/map.svg" alt="">
+                                        <span class="info-item__address">Георгенштрассе 35,<br>
+                                            офис 614-616 10117 Берлин</span></li>
+                                    <li class="info-item">
+                                        <img src="images/icons/phone.svg" alt="">
+                                        <a class="info-link" href="tel:03023593553">030-235 93 553</a></li>
+                                    <li class="info-item">
+                                        <img src="images/icons/mail.svg" alt="">
+                                        <a class="info-link" href="mailto:info@proakademie.de">info@proakademie.de</a></li>
                                 </ul>
                             </div>
-                            <div class="footer-info-block">
-                                <a href="#" class="footer-info-block__text">Наши сертификаты</a>
-                                <a href="#" class="footer-info-block__text">Информация о нас</a>
+                            <div class="toggle-lang">
+                                <a class="toggle-link blue-border" href="#">RU</a>
+                                <a class="toggle-link red-border" href="#">DE</a>
+                                <div class="toggle-link yellow-border"></div>
+                                <a class="toggle-link blue-border" href="#">EN</a>
+                                <a class="toggle-link red-border" href="#">FA</a>
+                                <div class="toggle-link yellow-border"></div>
+                                <a class="toggle-link blue-border" href="#">AR</a>
+                                <div class="toggle-link red-border"></div>
+                                <div class="toggle-link yellow-border"></div>
+                            </div>
+
+                        </div>
+                        <div class="footer-block">
+                            <nav class="nav">
+                                <ul class="nav__list">
+                                    <li class="nav__item">
+                                        <a class="nav__link current" href="index.html" target="_blank">Главная</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a class="nav__link" href="courses.html" target="_blank">Курсы</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a class="nav__link" href="coaching.html" target="_blank">Коучинги</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a class="nav__link" href="about-us.html" target="_blank">О нас</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a class="nav__link" href="blog.html" target="_blank">Блог</a>
+                                    </li>
+
+
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="footer-block">
+                            <div class="inner-wrapper">
+                                <div class="social-block">
+                                    <ul class="social-list">
+                                        <li class="social-item">
+                                            <a href="#">
+                                                <img src="images/icons/youtube1.svg" alt="YouTube icon">
+
+
+                                            </a>
+                                        </li>
+                                        <li class="social-item">
+                                            <a href="#">
+                                                <img src="images/icons/inst1.svg" alt="Instagram icon">
+
+                                            </a>
+                                        </li>
+                                        <li class="social-item">
+                                            <a href="#">
+                                                <img src="images/icons/whatsapp1.svg" alt="Whatsapp icon">
+
+                                            </a>
+                                        </li>
+
+                                        <li class="social-item">
+                                            <a href="#">
+                                                <img src="images/icons/pint1.svg" alt="Pinterest icon">
+
+                                            </a>
+                                        </li>
+
+
+                                        <li class="social-item">
+                                            <a href="#">
+                                                <img src="images/icons/telegram1.svg" alt="Telegram icon">
+
+
+                                            </a>
+                                        </li>
+                                        <li class="social-item">
+                                            <a href="#">
+                                                <img src="images/icons/fb1.svg" alt="Facebook icon">
+
+                                            </a>
+                                        </li>
+                                        <li class="social-item">
+                                            <a href="#">
+                                                <img src="images/icons/tw1.svg" alt="Twitter icon">
+
+
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <ul class="footer-info-block">
+                                    <li><a href="Datenschutzerklärung.html" class="footer-info-block__text">Datenschutzerklärung</a></li>
+                                    <li><a href="Impressum.html" class="footer-info-block__text">Impressum</a></li>
+                                    <li><a href="#" class="footer-info-block__text">Allgemeine Geschäftsbedingungen</a></li>
+                                </ul>
                             </div>
                         </div>
+                    </div>
+                    <div class="rights-block">
+                        <span class="rights-block__text">© 2020 Proacademie™. Все права защищены.</span>
                     </div>
                 </div>
             </div>
@@ -732,41 +747,41 @@
                                 <ul class="social-list">
                                     <li class="social-item">
                                         <a href="#">
-                                            <img src="images/icons/youtube.svg" alt="YouTube icon">
+                                            <img src="images/icons/youtube1.svg" alt="YouTube icon">
                                         </a>
                                     </li>
 
                                     <li class="social-item">
                                         <a href="#">
-                                            <img src="images/icons/whatsapp.svg" alt="Whatsapp icon">
+                                            <img src="images/icons/whatsapp1.svg" alt="Whatsapp icon">
                                         </a>
                                     </li>
 
                                     <li class="social-item">
                                         <a href="#">
-                                            <img src="images/icons/pint.svg" alt="Pinterest icon">
+                                            <img src="images/icons/pint1.svg" alt="Pinterest icon">
                                         </a>
                                     </li>
 
 
                                     <li class="social-item">
                                         <a href="#">
-                                            <img src="images/icons/telegram.svg" alt="Telegram icon">
+                                            <img src="images/icons/telegram1.svg" alt="Telegram icon">
                                         </a>
                                     </li>
                                     <li class="social-item">
                                         <a href="#">
-                                            <img src="images/icons/inst.svg" alt="Instagram icon">
+                                            <img src="images/icons/inst1.svg" alt="Instagram icon">
                                         </a>
                                     </li>
                                     <li class="social-item">
                                         <a href="#">
-                                            <img src="images/icons/fb.svg" alt="Facebook icon">
+                                            <img src="images/icons/fb1.svg" alt="Facebook icon">
                                         </a>
                                     </li>
                                     <li class="social-item">
                                         <a href="#">
-                                            <img src="images/icons/tw.svg" alt="Twitter icon">
+                                            <img src="images/icons/tw1.svg" alt="Twitter icon">
                                         </a>
                                     </li>
 
@@ -812,8 +827,9 @@
                                 <div class="toggle-link yellow-border"></div>
                             </div>
                             <div class="footer-info-block">
-                                <a href="#" class="footer-info-block__text">Наши сертификаты</a>
-                                <a href="#" class="footer-info-block__text">Информация о нас</a>
+                                <a href="#" class="footer-info-block__text">Datenschutzerklärung</a>
+                                <a href="#" class="footer-info-block__text">Impressum</a>
+                                <a href="#" class="footer-info-block__text">Allgemeine Geschäftsbedingungen</a>
                             </div>
                         </div>
 
@@ -834,6 +850,9 @@
                                     <a class="info-link" href="mailto:info@proakademie.de">info@proakademie.de</a></li>
                             </ul>
                         </div>
+                    </div>
+                    <div class="rights-block">
+                        <span class="rights-block__text">© 2020 Proacademie™. Все права защищены.</span>
                     </div>
                 </div>
             </div>
