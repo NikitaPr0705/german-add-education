@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="181c16ec-3282-4de6-90a4-60814d54aa86" name="Default Changelist" comment="" />
+    <list default="true" id="181c16ec-3282-4de6-90a4-60814d54aa86" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Школа доп образования copy/.idea/Школа доп образования.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Школа доп образования.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../Школа доп образования.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Datenschutzerklärung.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Datenschutzerklärung.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Impressum.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Impressum.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/about-us.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/about-us.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/article.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/certificates.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/certificates.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coaching.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/coaching.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/course.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/course.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/courses.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/courses.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/about-us-back-img.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/bg/header-bg-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/bg/header-bg-img.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/bg/header-mobile-bg-img.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/main-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/main-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/main-logo1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ind-coach.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/ind-coach.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/our-mission.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/our-mission.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/reviews.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +42,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1iKc0WsC05jPG7Zl61uiTV9GGnK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -54,10 +84,22 @@
       <updated>1601659500536</updated>
       <workItem from="1601659503318" duration="174187000" />
       <workItem from="1602143255273" duration="43488000" />
+      <workItem from="1604052427768" duration="823000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

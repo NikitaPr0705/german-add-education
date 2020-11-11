@@ -12,8 +12,8 @@
 
 .slider .slick-arrow {
     position: absolute;
-    top: 48%;
-    margin: -27px 13px 0 10px;
+    top: 50%;
+    margin: -2% 2.3vw 0 2.4vw;
     z-index: 10;
     font-size: 0;
     height: 5vw;
@@ -128,7 +128,6 @@
 * {
     margin: 0;
     padding: 0;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -147,6 +146,775 @@ img {
 }
 
 
+
+
+
+
+
+
+/* Background images*/
+
+
+/*Our courses */
+.bg-img-1 {
+    position: absolute;
+    width: 18vw;
+    top: 0;
+    left: 0;
+    z-index: -100;
+}
+
+.bg-img-2 {
+    position: absolute;
+    top: 0;
+    right: 2vw;
+    width: 9vw;
+    z-index: -100;
+}
+
+.bg-img-3 {
+    position: absolute;
+    top: 44.6vw;
+    right: -3.3vw;
+    width: 17vw;
+    z-index: -100;
+}
+
+.bg-img-4 {
+    position: absolute;
+    bottom: 1.5vw;
+    left: 0;
+    width: 9.7vw;
+    z-index: -100;
+}
+
+.bg-img-5 {
+    position: absolute;
+    bottom: -1.2vw;
+    left: 51.6vw;
+    width: 40vw;
+    z-index: -100;
+}
+
+
+
+
+/*Result section*/
+
+.bg-img-6 {
+    position: absolute;
+    top: 1vw;
+    left: 0;
+    width: 18.2vw;
+    z-index: -100;
+}
+
+.bg-img-7 {
+    position: absolute;
+    top: 1vw;
+    right: 1vw;
+    width: 10vw;
+    z-index: -100;
+}
+
+.bg-img-8 {
+    position: absolute;
+    bottom: -0.9vw;
+    right: 2vw;
+    width: 8.6vw;
+    z-index: -100;
+}
+
+.bg-img-9 {
+    position: absolute;
+    top: 3vw;
+    left: 0;
+    width: 18vw;
+    z-index: -100;
+}
+
+.bg-img-10 {
+    position: absolute;
+    top: 3vw;
+    right: 2vw;
+    width: 8vw;
+    z-index: -100;
+}
+
+.bg-img-11 {
+    position: absolute;
+    bottom: 0.1vw;
+    left: 0;
+    width: 10vw;
+    z-index: -100;
+}
+
+.bg-img-12 {
+    position: absolute;
+    bottom: 0vw;
+    right: 1vw;
+    width: 9.6vw;
+    z-index: -100;
+}
+
+/*Result section*/
+
+
+/*About us*/
+.bg-img-13 {
+    position: absolute;
+    top: 2vw;
+    left: 0px;
+    width: 18vw;
+    z-index: -100;
+}
+
+.bg-img-14 {
+    position: absolute;
+    top: 1.7vw;
+    right: 2.3vw;
+    width: 7vw;
+    z-index: -100;
+}
+
+.bg-mob-img-14 {
+    display: none;
+}
+
+.bg-img-15 {
+    position: absolute;
+    bottom: 2vw;
+    right: 1vw;
+    width: 9.4vw;
+    z-index: -100;
+}
+
+.bg-mob-img-15 {
+    display: none;
+}
+
+/*About us*/
+
+
+
+
+/*Reviews*/
+.bg-img-16 {
+    position: absolute;
+    top: 0vw;
+    left: 0;
+    width: 18vw;
+    z-index: -100;
+}
+
+.bg-img-17 {
+    position: absolute;
+    top: 0vw;
+    right: 2vw;
+    width: 8vw;
+    z-index: -100;
+}
+
+.bg-img-18 {
+    position: absolute;
+    bottom: 2vw;
+    right: -1vw;
+    width: 20.6vw;
+    z-index: -100;
+}
+
+.bg-img-19 {
+    position: absolute;
+    bottom: 2vw;
+    left: 0;
+    width: 21.6vw;
+    z-index: -100;
+}
+
+/*Reviews*/
+
+
+
+
+/*Partners*/
+.bg-img-20 {
+    position: absolute;
+    top: 0vw;
+    left: 0vw;
+    width: 18vw;
+    z-index: -100;
+}
+
+
+.bg-mob-img-21 {
+    display: none;
+}
+
+/*Partners*/
+
+
+.our-courses-page-section .bg-img-11 {
+    position: absolute;
+    top: 67.5vw;
+    left: 8vw;
+    width: 14vw;
+    z-index: -100;
+}
+
+.blog-section .bg-img-11 {
+    position: absolute;
+    top: 67.5vw;
+    left: 8vw;
+    width: 14vw;
+    z-index: -100;
+}
+
+.article-section .bg-img-11 {
+    position: absolute;
+    top: 67.5vw;
+    left: 8vw;
+    width: 14vw;
+    z-index: -100;
+}
+
+.certificates-section .bg-img-4 {
+    position: absolute;
+    top: 55.5vw;
+    left: 0;
+    width: 10vw;
+    z-index: -100;
+}
+
+.certificates-section .bg-img-11 {
+    position: absolute;
+    top: 38.5vw;
+    left: 18vw;
+    width: 14vw;
+    z-index: -100;
+}
+
+
+.reviews-page-section .bg-img-11 {
+    position: absolute;
+    top: 67.5vw;
+    left: 8vw;
+    width: 14vw;
+    z-index: -100;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+
+    /*Our courses */
+    .bg-img-1 {
+        position: absolute;
+        width: 22vw;
+        top: 0;
+        left: 0;
+    }
+
+    .bg-img-2 {
+        position: absolute;
+        top: 0;
+        right: 2vw;
+        width: 7vw;
+    }
+
+    .bg-img-3 {
+        position: absolute;
+        top: 44.6vw;
+        right: -3.3vw;
+        width: 17vw;
+    }
+
+    .bg-img-4 {
+        position: absolute;
+        bottom: 206vw;
+        left: 5vw;
+        width: 25.7vw;
+    }
+
+    .bg-img-5 {
+        position: absolute;
+        bottom: -2.2vw;
+        left: 47.6vw;
+        width: 53vw;
+    }
+
+
+
+
+    /*Result section*/
+
+    .bg-img-6 {
+        position: absolute;
+        top: 3vw;
+        left: 0;
+        width: 21.2vw;
+    }
+
+    .bg-img-7 {
+        display: none;
+    }
+
+    .bg-img-8 {
+        display: none;
+    }
+
+    .bg-img-9 {
+        position: absolute;
+        top: 3vw;
+        left: 0;
+        width: 22vw;
+    }
+
+    .bg-img-10 {
+        position: absolute;
+        top: 3vw;
+        right: 0vw;
+        width: 9vw;
+    }
+
+    .bg-img-11 {
+        position: absolute;
+        bottom: 262.1vw;
+        left: 62vw;
+        width: 23vw;
+    }
+
+    .bg-img-12 {
+        position: absolute;
+        bottom: -2vw;
+        right: -1vw;
+        width: 22.6vw;
+    }
+
+    /*Result section*/
+
+
+    /*About us*/
+    .bg-img-13 {
+        display: none;
+    }
+
+    .bg-img-14 {
+        display: none;
+    }
+
+    .bg-img-15 {
+        display: none;
+    }
+
+    .bg-mob-img-14 {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 22vw;
+    }
+
+    .bg-mob-img-15 {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 11vw;
+    }
+
+    /*About us*/
+
+
+
+
+    /*Reviews*/
+    .bg-img-16 {
+        position: absolute;
+        top: 0vw;
+        left: 0;
+        width: 21vw;
+    }
+
+    .bg-img-17 {
+        position: absolute;
+        top: 0vw;
+        right: 2vw;
+        width: 9vw;
+    }
+
+    .bg-img-18 {
+        position: absolute;
+        bottom: 8vw;
+        right: 2vw;
+        width: 24.6vw;
+    }
+
+    .bg-img-19 {
+        display: none;
+    }
+
+    /*Reviews*/
+
+
+
+
+    /*Partners*/
+    .bg-img-20 {
+        position: absolute;
+        top: 0vw;
+        left: 0vw;
+        width: 27vw;
+    }
+
+    .bg-mob-img-21 {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 11.3vw;
+    }
+
+    /*Partners*/
+
+
+
+
+    .our-courses-page-section .bg-img-4,
+    .our-mission-section .bg-img-4,
+    .blog-section .bg-img-3,
+    .article-section .bg-img-4,
+    .article-section .bg-img-3,
+    .article-section .bg-img-11,
+    .certificates-section .bg-img-4,
+    .certificates-section .bg-img-3,
+    .certificates-section .bg-img-11,
+    .reviews-page-section .bg-img-3,
+    .reviews-page-section .bg-img-4,
+    .reviews-page-section .bg-img-11,
+    .daten-section .bg-img-4,
+    .impressum-section .bg-img-4 {
+        display: none;
+    }
+
+
+    .certificates-section .bg-img-5 {
+        bottom: 6vw;
+    }
+
+    .reviews-page-section .bg-img-5 {
+        bottom: 1vw;
+    }
+
+    .our-courses-page-section .bg-img-5,
+    .blog-section .bg-img-5 {
+        bottom: 6vw;
+    }
+
+}
+
+@media screen and (min-width: 1441px) {
+    /*Our courses */
+
+    .bg-img-1 {
+        width: 264px;
+    }
+
+    .bg-img-2 {
+        right: 0;
+        width: 131px;
+    }
+
+    .bg-img-3 {
+        top: 590px;
+        right: -82px;
+        width: 247px;
+    }
+
+    .bg-img-4 {
+        bottom: 116px;
+        width: 142px;
+    }
+
+    .bg-img-5 {
+        position: absolute;
+        bottom: 78px;
+        left: 745px;
+        width: 574px;
+    }
+
+
+    /*Our Courses*/
+
+
+
+    /*Result section*/
+
+    .bg-img-6 {
+        position: absolute;
+        top: -12px;
+        left: 0;
+        width: 264px;
+    }
+
+
+    .bg-img-7 {
+        position: absolute;
+        top: -14px;
+        right: -20px;
+        width: 141px;
+    }
+
+    .bg-img-8 {
+        position: absolute;
+        bottom: -54px;
+        right: -4px;
+        width: 122px;
+    }
+
+    .bg-img-9 {
+        position: absolute;
+        top: 58px;
+        left: 0;
+        width: 264px;
+    }
+
+    .bg-img-10 {
+        position: absolute;
+        top: 58px;
+        right: -3px;
+        width: 110px;
+    }
+
+    .bg-img-11 {
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 142px;
+    }
+
+    .bg-img-12 {
+        position: absolute;
+        bottom: -1px;
+        right: -25px;
+        width: 142px;
+    }
+
+
+    /*Result section*/
+
+
+    /*About us*/
+    .bg-img-13 {
+        position: absolute;
+        top: 0;
+        left: 0px;
+        width: 263px;
+    }
+
+    .bg-img-14 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 101px;
+    }
+
+    .bg-img-15 {
+        position: absolute;
+        bottom: 44px;
+        right: -25px;
+        width: 138px;
+    }
+
+    /*About us*/
+
+
+
+
+    /*Reviews*/
+    .bg-img-16 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 263px;
+    }
+
+    .bg-img-17 {
+        position: absolute;
+        top: 0vw;
+        right: 0;
+        width: 108px;
+    }
+
+    .bg-img-18 {
+        position: absolute;
+        bottom: 83px;
+        right: -48px;
+        width: 288px;
+    }
+
+    .bg-img-19 {
+        position: absolute;
+        bottom: 80px;
+        left: 0;
+        width: 312px;
+    }
+
+    /*Reviews*/
+
+
+
+
+    /*Partners*/
+    .bg-img-20 {
+        position: absolute;
+        top: 0vw;
+        left: 0vw;
+        width: 263px;
+    }
+
+    /*Partners*/
+
+
+    .our-courses-page-section .bg-img-4 {
+        bottom: 70px;
+        width: 142px;
+    }
+
+    .our-courses-page-section .bg-img-5 {
+        position: absolute;
+        bottom: 50px;
+        left: 745px;
+        width: 574px;
+    }
+
+
+    .our-mission-section .bg-img-4 {
+        bottom: -22px;
+    }
+
+    .our-mission-section .bg-img-5 {
+        bottom: -52px;
+    }
+
+
+    .our-courses-page-section .bg-img-11 {
+        top: 959px;
+        left: 112px;
+        width: 204px;
+    }
+
+
+    .blog-section .bg-img-11 {
+        top: 959px;
+        left: 112px;
+        width: 204px;
+    }
+
+    .article-section .bg-img-11 {
+        top: 959px;
+        left: 112px;
+        width: 204px;
+    }
+
+    .article-section .bg-img-4 {
+        bottom: 0;
+        width: 149px;
+    }
+
+    .article-section .bg-img-5 {
+        bottom: -63px;
+    }
+
+    .article-section .bg-img-11 {
+        top: 916px;
+        width: 204px;
+    }
+
+    .certificates-section .bg-img-4 {
+        top: 784px;
+        left: 20px;
+        width: 139px;
+    }
+
+    .certificates-section .bg-img-11 {
+        top: 538px;
+        left: 284px;
+        width: 204px;
+    }
+
+    .reviews-page-section .bg-img-11 {
+        top: 959px;
+        left: 112px;
+        width: 204px;
+    }
+
+    .daten-section .bg-img-4 {
+        bottom: 0;
+    }
+
+    .daten-section .bg-img-5 {
+        bottom: -30px;
+    }
+
+    .impressum-section .bg-img-4 {
+        bottom: 0;
+    }
+
+    .impressum-section .bg-img-5 {
+        bottom: -30px;
+    }
+
+}
+
+/* Background images*/
+
+
+
+
+
+
+
+
+
+
+
+
+.header-bg {
+    position: absolute;
+    width: 100%;
+    max-width: 1440px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header-bg .header-svg-desktop {
+    width: 97.5%;
+    height: auto;
+}
+
+@media screen and (max-width: 767px) {
+    .header-bg .header-svg-desktop {
+        display: none;
+    }
+}
+
+.header-bg .header-svg-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .header-bg .header-svg-mobile {
+        display: block;
+        width: 100vw;
+        height: auto;
+    }
+}
+
+
+
+
 .nav__link,
 .nav-mobile__link,
 .section-title,
@@ -156,12 +924,6 @@ img {
     font-family: 'Bebas Neue', sans-serif;
 }
 
-.bg-desktop {
-    background-image: url("../images/bg/all-bg-img.svg");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    background-position: top center;
-}
 
 .section {
     margin: 0 0 2.2vw 0;
@@ -197,37 +959,28 @@ img {
     position: relative;
     overflow-x: hidden;
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
 
 }
 
 .breadcrumbs {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     flex-wrap: wrap;
 }
 
 .wrapper .page {
-    -webkit-box-flex: 1;
-    -ms-flex: auto;
     flex: auto;
 }
 
 .wrapper .footer {
-    -webkit-box-flex: 0;
-    -ms-flex: none;
     flex: none;
 }
 
 .container {
     width: 100%;
-    padding: 0 4.8vw 0 5.8vw;
+    padding: 0px 4.8vw 0 6vw;
     margin: 0 auto;
     position: relative;
 }
@@ -237,8 +990,6 @@ img {
 .header {
     position: relative;
     width: 100%;
-    padding: 1.2vw 0 1.7vw 0;
-
 }
 
 .modal-block {
@@ -305,6 +1056,70 @@ img {
     width: 100%;
     margin-bottom: 2.2vw;
     padding: 1.3vw 1vw 1vw 1.5vw;
+}
+
+
+
+
+
+
+.modal input::-webkit-input-placeholder, .modal textarea::-webkit-input-placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2vw;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #C4C4C4;
+}
+
+
+
+
+
+
+.modal input::-moz-placeholder, .modal textarea::-moz-placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2vw;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #C4C4C4;
+}
+
+
+
+
+
+
+.modal input:-ms-input-placeholder, .modal textarea:-ms-input-placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2vw;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #C4C4C4;
+}
+
+
+
+
+
+
+.modal input::-ms-input-placeholder, .modal textarea::-ms-input-placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2vw;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #C4C4C4;
 }
 
 
@@ -464,10 +1279,8 @@ img {
 .header .header-outer {
     max-width: 1440px;
     margin: 0 auto;
-    background-image: url("../images/bg/header-bg-img.svg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: top center;
+    position: relative;
+    padding: 1.2vw 0 1.7vw 0;
 }
 
 .header .header-logo {
@@ -487,7 +1300,7 @@ img {
     flex-wrap: wrap;
     margin-bottom: 1.6vw;
     padding: 0 0 0 4.4vw;
-    width: 79.6vw;
+    width: 77.6vw;
 }
 
 .header .second {
@@ -772,14 +1585,7 @@ img {
 
 
 
-.header-bg {
-    position: absolute;
-    width: 100%;
-    max-width: 1440px;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-}
+
 
 .bg-right {
     position: absolute;
@@ -787,11 +1593,7 @@ img {
 }
 
 .main-logo {
-
-    width: calc(83px + 3vw);
-
-
-
+    width: 9vw;
 }
 
 .slider-section .slider {
@@ -823,7 +1625,7 @@ img {
 }
 
 .section-inner {
-
+    position: relative;
     display: flex;
     flex-direction: column;
     margin: 0 0 0 0;
@@ -835,17 +1637,15 @@ img {
     width: 100%;
 }
 
-.our-courses-page-section .section-title {
+.our-courses-page-section .section-page-title {
     display: none;
 }
 
-
-.our-courses-section .section-inner {
-    background-image: url("../images/bg/courses-bg-img.svg");
-    background-size: cover;
-    background-position: top center;
-    background-repeat: no-repeat;
+.our-courses-page-section {
+    padding: 2vw 0 0 0;
 }
+
+
 
 .our-courses-section .items-list {
     padding-top: 6.8vw;
@@ -871,14 +1671,10 @@ img {
 }
 
 .card-content .card-text {
-    -webkit-box-flex: 1;
-    -ms-flex: auto;
     flex: auto;
 }
 
 .card-content .card-footer {
-    -webkit-box-flex: 0;
-    -ms-flex: none;
     flex: none;
 }
 
@@ -999,8 +1795,6 @@ img {
 }
 
 .section-content {
-    -webkit-box-flex: 0;
-    -ms-flex: none;
     flex: none;
 }
 
@@ -1034,6 +1828,14 @@ img {
     margin-right: 1.5rem;
 }
 
+
+@media screen and (min-width: 1441px) {
+    .section-content .result-list li:before {
+        width: 25px;
+        height: 25px;
+    }
+}
+
 .result-list__text {
     font-style: normal;
     font-weight: normal;
@@ -1050,8 +1852,6 @@ img {
 .item {
     background-color: white;
     position: relative;
-    -webkit-box-shadow: -23px -19px 32px -35px rgba(0, 0, 0, 0.35), 9px 7px 0px -2px rgba(21, 78, 96, 1);
-    -moz-box-shadow: -23px -19px 32px -35px rgba(0, 0, 0, 0.35), 9px 7px 0px -2px rgba(21, 78, 96, 1);
     box-shadow: -7px -7px 28px -23px rgba(0, 0, 0, 0.35), 7px 7px 0px 0px rgba(21, 78, 96, 1);
 
 }
@@ -1067,13 +1867,6 @@ img {
 }
 
 
-
-.facts-section .section-inner {
-    background-image: url("../images/bg/facts-bg-img.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top center;
-}
 
 .facts-section .items-list {
     display: flex;
@@ -1111,14 +1904,15 @@ img {
     position: relative;
 }
 
-.result-section .section-inner {
+.result-section .section-title {
+    margin-top: 2vw;
+}
 
+@media screen and (min-width: 1441px) {
 
-
-    background-image: url("../images/bg/result-bg-img.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top center;
+    .result-section .section-title {
+        margin-top: 24px;
+    }
 }
 
 .fact-card .card-picture {
@@ -1170,46 +1964,32 @@ img {
 
 .section-text {
     display: inline-block;
-    -webkit-box-flex: 1;
-    -ms-flex: auto;
     flex: auto;
 }
 
 .about-us-footer {
     width: 69.4vw;
     display: flex;
-    margin-top: 3vw;
+    margin-top: 5vw;
     justify-content: flex-end;
-    -webkit-box-flex: 0;
-    -ms-flex: none;
     flex: none;
 }
 
 .about-us-section {
-
-
     position: relative;
 
-
-
 }
-
-.about-us-section .section-inner {
-    background-image: url("../images/bg/about-us-bg-img.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top center;
-    padding-bottom: 6.5vw;
-}
-
-
 
 .about-us-section .section-content {
     padding-top: 6.5vw;
 }
 
+.about-us-section .section-inner {
+    padding: 3.3vw 0 7vw 14vw;
+}
+
 .about-us-section .section-title {
-    padding-top: 4vw;
+    padding-top: 0vw;
 }
 
 .about-us-section .section-text {
@@ -1224,14 +2004,6 @@ img {
 
 .about-us-section .card-title {
     padding-top: 1vw;
-}
-
-
-.reviews-section .section-inner {
-    background-image: url("../images/bg/reviews-bg-img.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top center;
 }
 
 
@@ -1302,14 +2074,6 @@ img {
 }
 
 
-.partners-section .section-inner {
-    position: relative;
-    background-image: url("../images/bg/partners-bg-img.svg");
-    background-size: 21%;
-    background-repeat: no-repeat;
-    background-position: top left;
-}
-
 .partners-bg-right-1 {
     top: -7px;
     right: -347px;
@@ -1331,8 +2095,7 @@ img {
 }
 
 .partners-section .section-inner {
-
-    padding: 4.5vw 0 4.2vw 0;
+    padding: 2.5vw 0 4.2vw 0;
 }
 
 .partners-section .section-title {
@@ -1447,13 +2210,6 @@ img {
     text-shadow: 0px 1.14286px 0px #154E60;
 }
 
-.footer-block .info-item:nth-child(1) {
-    /* margin-bottom: 1.2vw; */
-}
-
-.footer-block .info-item:nth-child(2) {
-    /* margin-bottom: 1.8vw; */
-}
 
 .footer-block .info-item:nth-child(3) {
     margin-bottom: 1rem;
@@ -1636,8 +2392,7 @@ img {
 
 .nav-links {
     display: flex;
-    justify-content: center;
-    margin-right: 14vw;
+    margin-left: 24vw;
 }
 
 .page-numbers {
@@ -1696,9 +2451,11 @@ img {
 
 .breadcrumbs,
 .course-block__title {
-    margin-left: 8vw;
-    margin-bottom: 1vw;
+    margin-left: 7vw;
+    margin-bottom: 2vw;
 }
+
+
 
 .breadcrumbs__text {
     font-style: normal;
@@ -1707,6 +2464,11 @@ img {
     text-transform: uppercase;
     letter-spacing: 0.01em;
     color: #C4C4C4;
+}
+
+.breadcrumbs__text--separator {
+    font-size: 2.3vw;
+    line-height: 0;
 }
 
 .course-block {
@@ -1745,6 +2507,11 @@ img {
     margin: 0 1.5vw 1.5vw 0;
 }
 
+
+.course-block__title--mobile {
+    display: none;
+}
+
 /* / Course page*/
 
 
@@ -1753,7 +2520,11 @@ img {
 .our-mission-section {
     position: relative;
     width: 100%;
-    margin: 0 0 10vw 0;
+}
+
+.our-mission-section .section-inner {
+    margin-top: 2vw;
+    padding-bottom: 24vw;
 }
 
 .section-content__text {
@@ -1767,13 +2538,13 @@ img {
     align-items: flex-start;
     letter-spacing: 0.02em;
     text-indent: 7vw;
-    color: #000000;
+    color: #154E60;
 }
 
 
 .our-mission-section .section-title {
     font-size: 2.35vw;
-    margin: 3vw 0 4.5vw 7.1vw;
+    margin: 1vw 0 4.5vw 7.1vw;
 }
 
 /* / Our mission page*/
@@ -1787,7 +2558,7 @@ img {
 .about-us-page-section {
     position: relative;
     width: 100%;
-    margin: 0 0 0 0;
+    margin: 2vw 0 0 0;
 }
 
 .about-us-page-section .section-inner {
@@ -1807,6 +2578,7 @@ img {
 
 .section-content__team {
     display: flex;
+    align-items: flex-start;
     margin: 8.5vw 0 0 0;
 
 }
@@ -1833,6 +2605,7 @@ img {
 .section-content__team .card-content {
     width: 24vw;
     margin: 0;
+    display: flex;
 }
 
 .section-content__team .card-title {
@@ -1841,7 +2614,7 @@ img {
     font-size: calc(0.7rem + 0.6vw);
     line-height: 24px;
     text-transform: uppercase;
-
+    order: 1;
     color: #38869C;
 
     text-shadow: 0px 0.5px 0px #154E60;
@@ -1855,10 +2628,11 @@ img {
     letter-spacing: 0.02em;
     margin: 0 0 1vw 0;
     color: #C4C4C4;
+    order: 2;
 }
 
 .section-content__team .card-text {
-
+    order: 3;
     font-style: normal;
     font-weight: normal;
     font-size: calc(0.7rem + 0.5vw);
@@ -1868,15 +2642,40 @@ img {
     color: #154E60;
 }
 
-.section-content__team .card-link {
+
+.hide {
+    display: none;
+    order: 5;
+}
+
+.hide+label {
+    order: 6;
+}
+
+.hide+label~.section-content__card-text {
+    height: 18vw;
+    margin: 0 0 1vw 0;
+}
+
+.hide:checked+label+.section-content__card-text {
+    height: auto;
+
+}
+
+.card-link {
     color: #5081A2;
     font-style: normal;
     font-weight: normal;
     font-size: calc(0.7rem + 0.5vw);
     line-height: 120.4%;
+    border: none;
+    align-self: flex-start;
+    background: #FFFFFF;
     /* or 22px */
     letter-spacing: 0.02em;
+
 }
+
 
 
 
@@ -1890,6 +2689,11 @@ img {
 
 
 /*Blog page*/
+
+.blog-section {
+    margin-top: 1vw;
+}
+
 .blog-section .section-title {
     margin: 2vw 0 4vw 8vw;
 }
@@ -1899,6 +2703,12 @@ img {
     text-indent: 0;
     width: 52vw;
 }
+
+.blog-section .section-content__text:nth-child(1) {
+    margin-bottom: 0;
+}
+
+
 
 
 .blog-section .blog-item {
@@ -1917,7 +2727,6 @@ img {
 
 .blog-section .card-content {
     margin-left: 0vw;
-    /* width: 19vw; */
 }
 
 .blog-section .card-title {
@@ -1974,6 +2783,10 @@ img {
 
 /* Article page*/
 
+.article-section {
+    margin-top: 2vw;
+}
+
 .article-section .section-inner {
     padding: 0 0 0 14vw;
 }
@@ -1992,7 +2805,7 @@ img {
 }
 
 .article-section .breadcrumbs {
-    margin: 0 0 3vw 8vw;
+    margin: 0 0 2vw 8vw;
 }
 
 .article-block__text {
@@ -2002,10 +2815,9 @@ img {
     line-height: 120.4%;
     /* or 22px */
     letter-spacing: 0.02em;
-    text-indent: 9vw;
+    text-indent: 8vw;
     color: #154E60;
     width: 61vw;
-    /* max-width: 870px; */
 }
 
 
@@ -2023,7 +2835,11 @@ img {
 .certificates-section {
     position: relative;
     width: 100%;
-    margin: 0 0 40px 0;
+    margin: 2vw 0 3.5vw 0;
+}
+
+.certificates-section .navigation {
+    display: none;
 }
 
 .certificates-section .section-inner {
@@ -2031,7 +2847,7 @@ img {
 }
 
 .certificates-section .section-title {
-    margin: 1vw 0 4vw 21.1vw;
+    margin: 0vw 0 4vw 21.1vw;
 }
 
 .certificates-section .section-content__text {
@@ -2068,6 +2884,11 @@ img {
 
 
 /*daten*/
+
+.daten-section {
+    margin-top: 2vw;
+}
+
 .daten-section .section-title {
     font-style: normal;
     font-weight: normal;
@@ -2076,7 +2897,7 @@ img {
     display: flex;
     align-items: center;
     text-transform: uppercase;
-    margin: 2.5vw 0 6vw 6vw;
+    margin: 0.5vw 0 6vw 6vw;
 }
 
 .daten-section .section-inner {
@@ -2102,6 +2923,13 @@ img {
 
 
 /*Impressum*/
+
+.impressum-section {
+    margin-top: 2vw;
+
+}
+
+
 .impressum-section .section-title {
     font-style: normal;
     font-weight: normal;
@@ -2136,6 +2964,7 @@ img {
 .reviews-page-section .items-list {
     display: flex;
     flex-wrap: wrap;
+    align-items: flex-start;
     margin: 0 0 4vw 0;
 }
 
@@ -2233,14 +3062,6 @@ img {
 /*MOBILE*/
 @media screen and (max-width: 767px) {
 
-
-    .bg-desktop {
-        background-image: url("../images/bg/mobile-all-bg.svg");
-        background-repeat: no-repeat;
-        background-size: 100% auto;
-        background-position: top center;
-    }
-
     .our-courses-section {
         min-height: auto;
     }
@@ -2254,6 +3075,7 @@ img {
     }
 
     .about-us-section {
+        margin-top: 6vw;
         min-height: auto;
     }
 
@@ -2264,53 +3086,6 @@ img {
 
     .partners-section {
         min-height: auto;
-    }
-
-    .our-courses-section .section-inner {
-        background-image: url("../images/bg/courses-mobile-bg-img.svg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: top center;
-    }
-
-    .result-section .section-inner {
-        background-color: white;
-        background-image: url("../images/bg/result-mobile-bg-img.svg");
-        background-size: 24%;
-        background-repeat: no-repeat;
-        background-position: top left;
-    }
-
-    .facts-section .section-inner {
-        background-color: white;
-        background-image: url("../images/bg/facts-mobile-bg-img.svg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: top center;
-    }
-
-    .about-us-section .section-inner {
-
-        background-image: url("../images/bg/about-us-mobile-bg-img.svg");
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-position: top center;
-    }
-
-    .reviews-section .section-inner {
-
-        background-image: url("../images/bg/reviews-mobile-bg-img.svg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: top center;
-    }
-
-    .partners-section .section-inner {
-        background-image: url("../images/bg/partners-mobile-bg-img.svg");
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-position: top center;
-        padding: 4.5vw 0 9.2vw 0;
     }
 
     .container {
@@ -2339,11 +3114,6 @@ img {
 
     }
 
-    .header {
-        background-image: url("../images/bg/header-mobile-bg-img.svg");
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
 
     .header-mobile {
         padding: 4vw 0 0 4.5vw;
@@ -2626,9 +3396,23 @@ img {
         margin: 0 0 2vw 0;
     }
 
-    .our-courses-page-section .section-title {
+    .our-courses-page-section .section-page-title {
         display: block;
+        max-width: 66vw;
+        text-transform: uppercase;
+        color: #154E60;
+        text-shadow: 0px 1px 0px #38869C;
+        letter-spacing: 0px;
+        margin-left: 26vw;
+        font-size: 5.6vw;
+        font-style: normal;
+        font-weight: normal;
     }
+
+    .our-courses-page-section .section-inner {
+        padding: 0;
+    }
+
 
     .our-courses-section .items-list {
         padding: 9.7vw 0 0 0;
@@ -2637,7 +3421,15 @@ img {
     .our-courses-section .item {
         width: 100%;
         padding: 0;
-        margin: 0px 0 16vw 0;
+        margin: 0px 0 14vw 0;
+    }
+
+    .our-courses-section .item:last-child {
+        margin: 0;
+    }
+
+    .our-courses-section.section {
+        margin: 0;
     }
 
     .our-courses-section .card-picture {
@@ -2654,9 +3446,6 @@ img {
     .card-content {
         padding: 0;
         margin: 0;
-        /* width: 80vw; */
-        vw;
-        */
     }
 
 
@@ -2770,13 +3559,12 @@ img {
 
     .about-us-section .section-text {
         font-size: 3.8vw;
-
-
-
-
-
         text-align: center;
         color: #154E60;
+    }
+
+    .about-us-section .section-inner {
+        padding: 3.3vw 0 7vw 0vw;
     }
 
     .about-us-section .section-text:nth-child(1) {
@@ -2830,8 +3618,6 @@ img {
         font-size: 4vw;
     }
 
-    .reviews-section .slider-reviews .stars {}
-
     .reviews-section .card-text {
         font-size: 4vw;
         padding: 0;
@@ -2845,6 +3631,11 @@ img {
     .partners-section .section-title {
         margin-left: 30vw;
         font-size: 5vw;
+    }
+
+    .partners-section .section-content {
+        padding-top: 8vw;
+        padding-bottom: 8vw;
     }
 
     .footer .container {
@@ -3141,14 +3932,29 @@ img {
 
     .about-us-page-section .section-title {
         font-size: 5.7vw;
-        margin: 3vw 0 9vw 26.1vw;
+        margin: -1vw 0 9vw 26.1vw;
     }
 
     .about-us-page-section .section-content__text {
         margin: 0 0 0 0vw;
         width: 90vw;
-        text-indent: 17vw;
+        text-indent: 0;
         font-size: 4vw;
+    }
+
+    .about-us-page-section .section-content__text:nth-child(1) {
+        width: 50vw;
+        text-indent: 0;
+        margin-left: 17vw;
+    }
+
+    .hide+label~.section-content__card-text {
+        height: 46vw;
+        margin: 0 0 2vw 0;
+    }
+
+    .hide+label~.section-content__card-text--reviews {
+        height: 8rem;
     }
 
     .about-us-page-section .card-picture {
@@ -3221,11 +4027,11 @@ img {
         font-size: 4vw;
     }
 
-    .section-content__team .card-link {
+    .card-link {
         color: #5081A2;
         font-style: normal;
         font-weight: normal;
-        font-size: 4vw;
+        font-size: calc(0.7rem + 0.5vw);
         line-height: 120.4%;
         letter-spacing: 0.02em;
     }
@@ -3261,7 +4067,6 @@ img {
     }
 
 
-
     .breadcrumbs__text {
         font-size: 4vw;
         line-height: 5vw;
@@ -3278,14 +4083,8 @@ img {
 
 
     .course-block__title {
-        width: 69vw;
-        font-size: 4vw;
-        line-height: 25px;
-        display: flex;
-        align-items: center;
-        text-transform: uppercase;
-        color: #154E60;
-        margin: 0px 0 4.5vw 0vw;
+        display: none;
+
     }
 
     .course-block__content {
@@ -3307,12 +4106,29 @@ img {
         display: flex;
         justify-content: center;
         float: left;
-        margin: 0 1.5vw 4.5vw 0;
+        margin: 0 1.5vw 4.5vw 8vw;
         align-self: center;
     }
 
     .nav-links {
+        margin-top: 8vw;
         margin-right: 0;
+    }
+
+
+    .course-block__title--mobile {
+        display: block;
+        font-style: normal;
+        font-weight: normal;
+        align-items: center;
+        text-transform: uppercase;
+        color: #154E60;
+        text-shadow: 0px 1px 0px #38869C;
+
+        width: 69vw;
+        font-size: 4vw;
+        line-height: 25px;
+        margin: 0px 0 4.5vw 0vw;
     }
 
     /*Course page*/
@@ -3355,6 +4171,7 @@ img {
 
 
     /*Impressum*/
+
     .impressum-section .section-title {
         font-style: normal;
         font-weight: normal;
@@ -3409,6 +4226,10 @@ img {
         transform: scale(1);
     }
 
+    .reviews-page-section .reviews-item:last-child {
+        margin: 0;
+    }
+
     .reviews-page-section .card {
         padding: 1vw 3vw 1vw 4.4vw;
     }
@@ -3433,7 +4254,7 @@ img {
         padding: 0;
         font-style: normal;
         font-weight: normal;
-        font-size: calc(0.7rem + 0.5vw);
+        font-size: calc(0.8rem + 0.1vw);
         line-height: 120.4%;
         letter-spacing: 0.02em;
         color: #154E60;
@@ -3449,6 +4270,10 @@ img {
         letter-spacing: 0.02em;
     }
 
+    .reviews-page-section .navigation {
+        margin-bottom: 1rem;
+    }
+
     /*    reviews page*/
 
 
@@ -3458,17 +4283,28 @@ img {
 
     /*    Certificates*/
 
-    .certificates-section .section-inner {
-        padding: 6vw 0 0 0vw;
+    .certificates-section {
+        margin-bottom: -1vw;
     }
 
+    .certificates-section .section-inner {
+        padding: 6vw 0 0vw 0vw;
+    }
+
+    .certificates-section .navigation {
+        display: block;
+
+    }
+
+
     .certificates-section .section-title {
-        margin: 0px 0 6vw 26.1vw;
+        margin: -21px 0 4vw 26.1vw;
     }
 
     .certificates-section .section-content__text {
-        margin: 0 0 10vw 0vw;
-        width: 90vw;
+        margin: 0 0 10vw 14vw;
+        text-indent: 0;
+        width: 70vw;
         font-size: 4vw;
     }
 
@@ -3498,7 +4334,7 @@ img {
     /*    Blog*/
 
     .blog-section .section-title {
-        margin: 3vw 0 9vw 26vw;
+        margin: 0vw 0 8vw 26vw;
     }
 
     .blog-section .section-content__text {
@@ -3508,6 +4344,13 @@ img {
         font-size: 4vw;
     }
 
+    .blog-section .section-content__text:nth-child(1) {
+        margin-bottom: 0;
+        width: 62vw;
+        margin-left: 17vw;
+    }
+
+
     .blog-section .blog-item {
         width: 90vw;
         padding: 4vw 2.6vw 8vw 6vw;
@@ -3515,6 +4358,10 @@ img {
         transition: .5s;
         box-sizing: border-box;
         margin: 0px 0 10vw 0;
+    }
+
+    .blog-section.blog-item:last-child {
+        margin-bottom: 0;
     }
 
     .blog-section .items-list {
@@ -3534,7 +4381,6 @@ img {
         width: 77vw;
         display: flex;
         justify-content: center;
-        /* align-self: center; */
     }
 
     .blog-section .card-title {
@@ -3573,13 +4419,10 @@ img {
 
     /*    Our mission*/
 
-    .our-mission-section {
-        margin: 0 0 22vw 0;
-    }
 
     .our-mission-section .section-title {
         font-size: 5.5vw;
-        margin: 4vw 0 6vw 27.1vw;
+        margin: 2vw 0 10vw 27.1vw;
     }
 
     .our-mission-section .section-content__text {
@@ -3694,9 +4537,10 @@ img {
         padding: 0 15px;
     }
 
-    .header {
-        padding: 15px 0;
+    .header .header-outer {
+        padding: 18px 0;
     }
+
 
     .main-logo {
         width: 125px;
@@ -3711,6 +4555,10 @@ img {
         max-width: 233px;
     }
 
+
+    .header .header-logo {
+        padding: 15px;
+    }
 
 
 
@@ -3790,6 +4638,38 @@ img {
 
 
 
+    .modal input::-webkit-input-placeholder, .modal textarea::-webkit-input-placeholder {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+
+
+
+    .modal input::-moz-placeholder, .modal textarea::-moz-placeholder {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+
+
+
+    .modal input:-ms-input-placeholder, .modal textarea:-ms-input-placeholder {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+
+
+
+    .modal input::-ms-input-placeholder, .modal textarea::-ms-input-placeholder {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+
+
+
     .modal input::placeholder,
     .modal textarea::placeholder {
         font-size: 18px;
@@ -3849,15 +4729,17 @@ img {
 
 
     .header .blocks-wrapper .first {
-        margin-bottom: 1.7rem;
-        padding: 0px 0 0 102px;
+        margin-bottom: 1.3rem;
+        padding: 0px 0 0 56px;
         max-width: 1108px;
     }
 
-    .info-item:nth-child(1) {}
+    .info-item:nth-child(1) {
+        margin-bottom: 6px;
+    }
 
     .info-item:nth-child(2) {
-        margin-bottom: 21px;
+        margin-bottom: 13px;
     }
 
     .info-item:nth-child(3) {
@@ -3873,6 +4755,9 @@ img {
     }
 
 
+    .slider-section {
+        padding-bottom: 0;
+    }
 
 
     .slider-section .slider img {
@@ -3913,8 +4798,17 @@ img {
     }
 
     .our-courses-section {
-        padding: 30px 0 30px 0;
+        padding: 30px 0 0px 0;
+        margin-bottom: 0;
+    }
 
+
+    .our-courses-section .section-inner {
+        padding: 3.2rem 0 4rem 12.7rem;
+    }
+
+    .course-page-section .section-inner {
+        padding: 0rem 0 4rem 12.7rem;
 
     }
 
@@ -3994,6 +4888,10 @@ img {
         padding: 20px;
     }
 
+    .facts-section .section-title {
+        padding-top: 89px;
+    }
+
     .facts-section .card-picture {
         margin-bottom: 20px;
     }
@@ -4015,8 +4913,12 @@ img {
         max-width: 1036px;
     }
 
+    .about-us-section .section-title {
+        padding-top: 31px;
+    }
+
     .about-us-section .section-inner {
-        padding: 0 0 0 8.4rem;
+        padding: 1.3rem 0 0 13rem;
     }
 
     .about-us-section .section-content {
@@ -4025,6 +4927,7 @@ img {
     }
 
     .about-us-footer {
+        margin-top: 41px;
         width: 996px;
     }
 
@@ -4177,8 +5080,6 @@ img {
         font-size: 20px;
     }
 
-    .footer-block .toggle-link {}
-
     .social-block {
         margin-left: 195px;
     }
@@ -4219,7 +5120,7 @@ img {
     }
 
     .about-us-page-section .section-inner {
-        padding: 70px 0 0 0;
+        padding: 70px 0 124px 0;
     }
 
     .about-us-page-section .section-title {
@@ -4241,6 +5142,11 @@ img {
         width: 100%;
         max-width: 876px;
         font-size: 19px;
+    }
+
+    .hide+label~.section-content__card-text {
+        height: 300px;
+        margin: 0 0 15px 0;
     }
 
     .section-content__team {
@@ -4292,7 +5198,7 @@ img {
     }
 
 
-    .section-content__team .card-link {
+    .card-link {
         color: #5081A2;
         font-style: normal;
         font-weight: normal;
@@ -4301,6 +5207,12 @@ img {
         letter-spacing: 0.02em;
     }
 
+
+    .breadcrumbs,
+    .course-block__title {
+        margin-left: 100px;
+        margin-bottom: 33px;
+    }
 
 
     /*    About Us Page*/
@@ -4340,7 +5252,7 @@ img {
     }
 
     .nav-links {
-        margin-right: 150px;
+        margin-left: 331px;
     }
 
     /*    Course page*/
@@ -4348,7 +5260,9 @@ img {
 
 
     /*    Daten*/
-
+    .daten-section {
+        margin-top: 29px;
+    }
 
 
 
@@ -4360,11 +5274,11 @@ img {
         display: flex;
         align-items: center;
         text-transform: uppercase;
-        margin: 14px 0 85px 159px;
+        margin: -9px 0 85px 159px;
     }
 
     .daten-section .section-inner {
-        padding: 73px 0 92px 141px;
+        padding: 73px 0 96px 141px;
     }
 
     .daten-section .section-content__text {
@@ -4387,6 +5301,7 @@ img {
 
 
 
+    /*    impressum */
 
     .impressum-section .section-title {
         font-style: normal;
@@ -4614,7 +5529,10 @@ img {
 
     .our-mission-section {
         width: 100%;
-        margin: 0 0 150px 0;
+    }
+
+    .our-mission-section .section-inner {
+        padding-bottom: 354px;
     }
 
     .our-mission-section .section-title {
